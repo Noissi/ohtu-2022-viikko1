@@ -68,7 +68,7 @@ class TestVarasto(unittest.TestCase):
     def test_ota_negatiivinen_maara(self):
         saatu_maara = self.varasto.ota_varastosta(-5)
 
-        self.assertAlmostEqual(saatu_maara, 0)
+        self.assertAlmostEqual(saatu_maara, 0) #
         
     def test_print(self):
         
